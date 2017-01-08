@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="60dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:text="Please scanning IC card："
+        android:gravity="right"
+        android:textSize="30dp"
+        android:id="@+id/text"
+        />
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="110"
+        android:gravity="left"
+        android:id="@+id/cardview"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:text="Save"
+        android:textSize="30dp"
+        android:onClick="SaveCard"
+        />
+
+</LinearLayout>
